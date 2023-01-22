@@ -1,5 +1,6 @@
 import PropTypes from 'prop-types';
-import styles from '../feedbackForm.module.css';
+
+import styles from './feedbackOptions.module.css';
 
 function capitalizeFirstLetter(string) {
   return string.charAt(0).toUpperCase() + string.slice(1);
